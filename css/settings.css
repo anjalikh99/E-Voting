@@ -1,0 +1,75 @@
+* {box-sizing: border-box}
+
+form {
+  border: 5px solid #f1f1f1;
+  margin-left: 15%;
+  background-color: rgb(0,0,0,0.3);
+  width: 70%;
+
+}
+
+
+.container {
+  padding: 16px;
+  color: #FFFFFF;
+}
+
+
+input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email], input[password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+
+
+.passchange {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.passchange:hover {
+  opacity:1;
+}
+
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/vote.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+.containersign {
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
