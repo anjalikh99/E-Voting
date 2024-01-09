@@ -1,0 +1,79 @@
+ body{
+    display:flex;
+    width: 100%;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+    background-image: url('../images/ballot.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+ .container {
+
+ position: absolute;
+  right: 1px;
+  top: 5px;
+  width: 59%;
+  height: 62%;
+  margin: 1%;
+  padding: 0;
+}
+
+.win{
+	position: absolute;
+	left: 28%;
+	top: 30%;
+	color: white;
+	font-style: bolder;
+	animation: colorchange 3s infinite;
+}
+@keyframes colorchange{
+	0%{color: #ffa7a6;}
+	25%{color: #2f4f4f;}
+	50%{color: #928eb1;}
+	100%{color: #8e2c85;}
+}
+
+
+.name{
+  position: absolute;
+  left: 24%;
+  top: 73%;	
+  color: #ffff00;
+  margin-left: 2%;
+}
+
+.descrip{
+	position: absolute;
+    left: 25%;
+    top: 83%;	
+    color: #ffff00;
+	margin-left: 4%;
+	display: inline;
+	font-family: 'Courgette', cursive;
+
+}
+
+.vote{
+	position: absolute;
+   left: 25%;
+   top: 88%;	
+   color: #ffff00;
+	margin-left: 4%;
+	display: inline;
+	font-family: 'Courgette', cursive;
+
+}
+
+.trigger{
+  position: absolute;
+  bottom: 3%;
+  color: white;
+  right: 5%;
+  height: 7%;
+  width: 10%;
+  background-color: #2f4f4f;
+}

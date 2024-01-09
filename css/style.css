@@ -1,0 +1,96 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body{
+
+	font-size: 20px;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/vote.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 655px;
+	font-family: 'Flamenco', cursive;
+}
+
+
+.main-content{
+
+	width: 1180px;
+	position: absolute;
+	top: 55%;
+	left: 10%;
+}
+
+h1{
+
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.btn{
+	 display: inline-block;
+	 padding: 10px 30px;
+	 font-weight: lighter;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 border-radius: 200px;
+	 transition: background-color 0.2s, border 0.2s, color 0.2;
+
+}
+
+.btn-order{
+	background-color: transparent;
+	color: #bf55ec;
+	margin-right: 15px;
+	border:1px solid #bf55ec;
+}
+.btn-order:hover{
+	background-color: #ffffff;
+}
+
+.btn-more{
+    background-color: transparent;
+	color: #fff;
+	border:1px solid #fff;
+
+}
+.btn-more:hover{
+	background-color: #bf55ec;
+}
+
+.colorc{
+	animation: colorchange 1s infinite;
+}
+@keyframes colorchange{
+	0%{color: red;}
+	25%{color: #bf55ec;}
+	50%{color: white;}
+	100%{color: #bf55ec;}
+}
+
+
+@media only screen and (max-width: 1180px){
+	.main-content{
+		width: 100%;
+		padding: 0 2%;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+	.btn-order{
+		margin-bottom: 20px;
+	}
+	h1{
+		font-size: 160%;
+	}
+}

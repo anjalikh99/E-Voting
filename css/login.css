@@ -1,0 +1,57 @@
+
+form {
+  border: 5px solid #f1f1f1;
+  margin-left: 15%;
+  background-color: rgb(0,0,0,0.3);
+  width: 70%;
+
+}
+
+input[type=number], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}              
+
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/vote.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  height: 100%;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 12px 0 12px 0;
+}
+
+img.voting {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  margin: 5px;
+  color: #FFFFFF;
+}
+

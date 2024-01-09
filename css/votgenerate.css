@@ -1,0 +1,114 @@
+:root{
+    --font-color:#555;
+    --font-hover-color:orange;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 110%;
+    font-family:"Raleway", sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/vote.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.head h4{
+    size: 24px;
+    color: #0099ff;
+    margin-top: 20px;
+    align-content: center;
+}
+
+.container{
+    width:500px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+    padding:2em;
+    background-color:#fff;
+}
+.form-group{
+    margin-bottom:1.5em;
+    transition:all .3s;
+}
+.form-label{
+    font-size:.75em;
+    color:var(--font-color);
+    display:block;
+    opacity:0;
+    
+    
+}
+.form-control{
+    box-shadow:none;
+    border-radius:0;
+    border-color:#ccc;
+    border-style:none none solid none;
+    width:110%;
+    font-size:1.25em;
+    
+}
+.form-control::placeholder{
+    color:#aaa;
+}
+.form-control:focus{
+    box-shadow:none;
+    border-color:var(--font-hover-color);
+    outline:none;
+}
+
+.form-control:invalid:focus{
+    border-color:red;
+}
+.form-control:valid:focus{
+    border-color:green;
+}
+
+.btn{
+    background: 0 0 #fff;
+    border:1px solid #aaa;
+    border-radius:3px;
+    color:var(--font-color);
+    font-size:1em;
+    padding:10 50px;
+    text-transform:uppercase;
+}
+
+.btnp{
+    background-color: #2f4f4f;
+    border:1px solid #aaa;
+    border-radius:3px;
+    color: #FFFFFF;
+    width: 10%;
+    height: 50px;
+    font-size:1em;
+    padding: 7px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+}
+.btn:hover{
+    border-color:var(--font-hover-color);
+    color:var(--font-hover-color);
+}
+textarea{
+    resize:none;
+}
+
+.btnpass{
+    background: 0 0 #fff;
+    border:1px solid #aaa;
+    border-radius:3px;
+    color:var(--font-color);
+    font-size:1em;
+    padding:10 50px;
+    margin-top: 5px;
+    text-transform:uppercase;
+}
+
+.btnpass:hover{
+    border-color:var(--font-hover-color);
+    color:var(--font-hover-color);
+}
+
+
